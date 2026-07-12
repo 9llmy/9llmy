@@ -112,26 +112,74 @@
 
     <g transform="translate(60,90)">
       <animateTransform attributeName="transform" type="translate" values="60,90; 60,82; 60,90" dur="5s" repeatCount="indefinite" additive="sum"/>
-      <g class="mono" font-size="13" fill="url(#asciiGradient)" filter="url(#softGlow)">
-        <text x="0" y="0"  opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.0s" fill="freeze"/>        _______________</text>
-        <text x="0" y="17" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.15s" fill="freeze"/>       /   #########   \</text>
-        <text x="0" y="34" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.30s" fill="freeze"/>      |   [#########]   |</text>
-        <text x="0" y="51" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.45s" fill="freeze"/>  ----+   [## S S A ##]  +----</text>
-        <text x="0" y="68" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.60s" fill="freeze"/>      |   [#########]   |</text>
-        <text x="0" y="85" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.75s" fill="freeze"/>       \   #########   /</text>
-        <text x="0" y="102" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.90s" fill="freeze"/>        ---+-------+---</text>
-        <text x="0" y="119" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.05s" fill="freeze"/>       /               \</text>
-        <text x="0" y="136" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.20s" fill="freeze"/>      /   ( ROTOR )     \</text>
-        <text x="0" y="153" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.35s" fill="freeze"/>     /_____________________\</text>
-        <text x="0" y="170" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.50s" fill="freeze"/></text>
-        <text x="0" y="187" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.65s" fill="freeze"/>   &gt; AI &amp; CLOUD ENGINEER_</text>
-        <text x="0" y="204" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.80s" fill="freeze"/>   &gt; GACA DRONE PILOT_</text>
-        <text x="0" y="221" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.95s" fill="freeze"/>   &gt; QASSIM UNIVERSITY_</text>
-        <text x="0" y="238" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.10s" fill="freeze"/>   &gt; STATUS: ONLINE #</text>
+      <g transform="translate(6,-6)">
+        <clipPath id="portraitReveal">
+          <rect x="0" y="-14" width="340" height="0">
+            <animate attributeName="height" from="0" to="360" dur="2.6s" begin="0.1s" fill="freeze"/>
+          </rect>
+        </clipPath>
+        <g clip-path="url(#portraitReveal)">
+          <g class="mono" font-size="6.3" fill="url(#asciiGradient)" filter="url(#softGlow)">
+            <text x="0" y="0.0" xml:space="preserve">                                                                                        </text>
+            <text x="0" y="7.4" xml:space="preserve">                                                                                        </text>
+            <text x="0" y="14.8" xml:space="preserve">                                                                                        </text>
+            <text x="0" y="22.2" xml:space="preserve">                                                                                        </text>
+            <text x="0" y="29.6" xml:space="preserve">                                       :::::::                                          </text>
+            <text x="0" y="37.0" xml:space="preserve">                                  ::::::-:--::::::                                      </text>
+            <text x="0" y="44.4" xml:space="preserve">                                ::::+=*=++-+-+-=-::::                                   </text>
+            <text x="0" y="51.8" xml:space="preserve">                             ::::-+=+-=+-+-=-=-====-:::::                               </text>
+            <text x="0" y="59.2" xml:space="preserve">                          :::=++*++=++=+-+=+==++++***##+::                              </text>
+            <text x="0" y="66.6" xml:space="preserve">                          ::#%%%%%%%%%%%%%%%%%%%%%%%%%%%*::                             </text>
+            <text x="0" y="74.0" xml:space="preserve">                         ::+%%%%%%%%%%%%%%%%%%%%%#####**+::                             </text>
+            <text x="0" y="81.4" xml:space="preserve">                        :::===+****+=++=*+**+=+==+====--=-::                            </text>
+            <text x="0" y="88.8" xml:space="preserve">                      :::-===+*##*++=+--=:==+--=:---=+=--=-::                           </text>
+            <text x="0" y="96.2" xml:space="preserve">                     :::=+=++#%#*+++++++=-=--=======-=**+-=:::                          </text>
+            <text x="0" y="103.6" xml:space="preserve">                     :::++++#%%******#*+=--:-=++==----+#+=+=-::                         </text>
+            <text x="0" y="111.0" xml:space="preserve">                     :::+++*#%##*#######+=-=*####**+++*%*=-=-::                         </text>
+            <text x="0" y="118.4" xml:space="preserve">                     :::++*##%%%%%%%%%%%#+=*%%%%%%%#***+**=-:::                         </text>
+            <text x="0" y="125.8" xml:space="preserve">                     :::+*#*##%%%%%%%%%%#=:+%%%%%####**-+**=::                          </text>
+            <text x="0" y="133.2" xml:space="preserve">                      ::-+++###%%%%%##%%+-::=#%%%###**=-+++=::                          </text>
+            <text x="0" y="140.6" xml:space="preserve">                       ::::-+**########+=::::-*####**=-=+==-::                          </text>
+            <text x="0" y="148.0" xml:space="preserve">                          :::=*+++++===+*=--=-:----:::=++=-:::                          </text>
+            <text x="0" y="155.4" xml:space="preserve">                           :::**=---=+**+=-=**=-:::::-**+=-::                           </text>
+            <text x="0" y="162.8" xml:space="preserve">                            ::-#*==+**+=-----==*=::-=+**+=-:::                          </text>
+            <text x="0" y="170.2" xml:space="preserve">                             ::*#*+=====----::-----=+***+++::::                         </text>
+            <text x="0" y="177.6" xml:space="preserve">                             :::##*+=====*+=::::-=+***+*+++:::::                        </text>
+            <text x="0" y="185.0" xml:space="preserve">                          ::::::++##*++++++=---=****+++*+*+-::::::                      </text>
+            <text x="0" y="192.4" xml:space="preserve">                     :::::::::-=-:-*####*++*****##*+==****+=-::::::                     </text>
+            <text x="0" y="199.8" xml:space="preserve">                  :::::::::::::--:::-+##########*++*+:-=+**+::::=-::                    </text>
+            <text x="0" y="207.2" xml:space="preserve">               :::::::::::::::::--:::::-==+***++++*=::-==++=::::-==::::                 </text>
+            <text x="0" y="214.6" xml:space="preserve">            ::::::::::::::::::::::-:::::::::::-+*+::-:::-=+-:-:::==-:::::::             </text>
+            <text x="0" y="222.0" xml:space="preserve">          :::::::::::::::::::::::::::::::::::::=-::-:::::-=-:::::==+:::::::::           </text>
+            <text x="0" y="229.4" xml:space="preserve">        :::::::::::::::::::::::::::::::::::::::::::::::::--:-::-:===-:::::::::          </text>
+            <text x="0" y="236.8" xml:space="preserve">      :::::::::::::::::::::::::::::::::::::::::::::::::::-::-::-:-+==:::::::::          </text>
+            <text x="0" y="244.2" xml:space="preserve">    ::::::::::::::::::::::::::::::::::::::::::::::::::::--::-::--:====::::::::          </text>
+            <text x="0" y="251.6" xml:space="preserve">  ::::::::::::::::::::::::::::::::::::::::::::::::::::::-:::-:---:-+=+:::::::           </text>
+            <text x="0" y="259.0" xml:space="preserve"> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-:-----=++-::::::           </text>
+            <text x="0" y="266.4" xml:space="preserve">:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::--:---=-==+-::::::           </text>
+            <text x="0" y="273.8" xml:space="preserve">:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-:----=-==--:::::            </text>
+            <text x="0" y="281.2" xml:space="preserve">:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::------=-==--:::::            </text>
+            <text x="0" y="288.6" xml:space="preserve">::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-------=-===:-:::             </text>
+            <text x="0" y="296.0" xml:space="preserve">::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-------=-==-:-:::             </text>
+            <text x="0" y="303.4" xml:space="preserve">:::::::::::::::::::::::::::::::::::::::::::::::::::::::::-:-:----=-+=-:=:::             </text>
+            <text x="0" y="310.8" xml:space="preserve">::::::::::::::::::::::::::::::::::::::::::::::::::::::::-::--:--=-==--==::              </text>
+            <text x="0" y="318.2" xml:space="preserve">:::::::::::::::::::::::::::::::::::::::::::::::::::::===+-------=-+=:-+-::              </text>
+            <text x="0" y="325.6" xml:space="preserve">:::::::::::::::::::::::::::::::::::::::::::::::::::::-=++=+=====+++=-=+::               </text>
+            <text x="0" y="333.0" xml:space="preserve">:::::::::::::::::::-::::::::::::::::::::::::::::::::::=++++++++*+**==+=::               </text>
+          </g>
+        </g>
+        <rect x="0" y="-14" width="340" height="360" fill="none" stroke="#22D3EE" stroke-opacity="0.15" stroke-width="1"/>
       </g>
-      <rect x="150" y="230" width="8" height="14" fill="#22D3EE" opacity="0">
-        <animate attributeName="opacity" values="0;1;1;0" dur="1s" begin="2.3s" repeatCount="indefinite"/>
-      </rect>
+
+      <g transform="translate(6,354.4)" class="mono" font-size="13" fill="url(#asciiGradient)" filter="url(#softGlow)">
+        <text x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.8s" fill="freeze"/>&gt; AI &amp; CLOUD ENGINEER_</text>
+        <text x="0" y="17" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.95s" fill="freeze"/>&gt; GACA DRONE PILOT_</text>
+        <text x="0" y="34" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.1s" fill="freeze"/>&gt; QASSIM UNIVERSITY_</text>
+        <text x="0" y="51" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.25s" fill="freeze"/>&gt; STATUS: ONLINE #</text>
+        <rect x="185" y="44" width="8" height="14" fill="#22D3EE" opacity="0">
+          <animate attributeName="opacity" values="0;1;1;0" dur="1s" begin="3.35s" repeatCount="indefinite"/>
+        </rect>
+      </g>
     </g>
 
     <!-- scanline sweep -->
