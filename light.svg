@@ -114,20 +114,20 @@
       <animateTransform attributeName="transform" type="translate" values="60,90; 60,82; 60,90" dur="5s" repeatCount="indefinite" additive="sum"/>
       <g class="mono" font-size="13" fill="url(#asciiGradient)" filter="url(#softGlow)">
         <text x="0" y="0"  opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.0s" fill="freeze"/>        _______________</text>
-        <text x="0" y="17" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.15s" fill="freeze"/>       /   ▄▄▄▄▄▄▄▄▄   \</text>
-        <text x="0" y="34" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.30s" fill="freeze"/>      |   ▐▓▓▓▓▓▓▓▓▓▌   |</text>
-        <text x="0" y="51" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.45s" fill="freeze"/>  ────┤   ▐▓▓ S S A ▓▓▌   ├────</text>
-        <text x="0" y="68" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.60s" fill="freeze"/>      |   ▐▓▓▓▓▓▓▓▓▓▌   |</text>
-        <text x="0" y="85" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.75s" fill="freeze"/>       \   ▀▀▀▀▀▀▀▀▀   /</text>
-        <text x="0" y="102" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.90s" fill="freeze"/>        ───┴───────┴───</text>
-        <text x="0" y="119" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.05s" fill="freeze"/>       ╱               ╲</text>
-        <text x="0" y="136" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.20s" fill="freeze"/>      ╱   ○  ROTOR  ○   ╲</text>
-        <text x="0" y="153" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.35s" fill="freeze"/>     ╱_____________________╲</text>
+        <text x="0" y="17" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.15s" fill="freeze"/>       /   #########   \</text>
+        <text x="0" y="34" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.30s" fill="freeze"/>      |   [#########]   |</text>
+        <text x="0" y="51" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.45s" fill="freeze"/>  ----+   [## S S A ##]  +----</text>
+        <text x="0" y="68" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.60s" fill="freeze"/>      |   [#########]   |</text>
+        <text x="0" y="85" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.75s" fill="freeze"/>       \   #########   /</text>
+        <text x="0" y="102" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.90s" fill="freeze"/>        ---+-------+---</text>
+        <text x="0" y="119" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.05s" fill="freeze"/>       /               \</text>
+        <text x="0" y="136" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.20s" fill="freeze"/>      /   ( ROTOR )     \</text>
+        <text x="0" y="153" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.35s" fill="freeze"/>     /_____________________\</text>
         <text x="0" y="170" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.50s" fill="freeze"/></text>
         <text x="0" y="187" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.65s" fill="freeze"/>   &gt; AI &amp; CLOUD ENGINEER_</text>
         <text x="0" y="204" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.80s" fill="freeze"/>   &gt; GACA DRONE PILOT_</text>
         <text x="0" y="221" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.95s" fill="freeze"/>   &gt; QASSIM UNIVERSITY_</text>
-        <text x="0" y="238" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.10s" fill="freeze"/>   &gt; STATUS: ONLINE █</text>
+        <text x="0" y="238" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.10s" fill="freeze"/>   &gt; STATUS: ONLINE #</text>
       </g>
       <rect x="150" y="230" width="8" height="14" fill="#06B6D4" opacity="0">
         <animate attributeName="opacity" values="0;1;1;0" dur="1s" begin="2.3s" repeatCount="indefinite"/>
